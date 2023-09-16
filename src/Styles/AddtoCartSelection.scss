@@ -1,0 +1,45 @@
+.productname {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+}
+
+.btnStyles {
+    width: 324px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px;
+    border: 1px solid #000000;
+    background: #000000;
+    color: #FFFFFF;
+
+}
+
+
+.cart-item-size {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    border: 1px;
+    background: linear-gradient(0deg, #E5E5E5, #E5E5E5);    
+
+}
+
+.cart-item-size:hover{
+    border: 1px solid #000000;
+    background: #000000;
+    color: #FFFFFF;
+
+
+}
+
+.size-layout {
+    width: 324px;
+    height: 95px;
+    border-radius: 100px
+}

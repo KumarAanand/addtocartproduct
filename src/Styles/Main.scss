@@ -1,0 +1,38 @@
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .left-section {
+    flex: 1;
+    width: 25%;
+    /* Your left section styles go here */
+
+    // Responsive Styles for Mobile
+    @media (max-width: 767px) {
+      display: none; // Occupy full width on mobile
+    }
+  }
+
+  .center-section {
+    flex: 2;
+    width: 540px;
+    height: 2381px;
+
+    // Responsive Styles for Mobile
+    @media (max-width: 767px) {
+      width: 100%; // Occupy full width on mobile
+    }
+  }
+
+  .right-section {
+    flex: 1;
+    width: 25%;
+    /* Your right section styles go here */
+
+    // Responsive Styles for Mobile
+    @media (max-width: 767px) {
+      width: 100%; // Occupy full width on mobile
+    }
+  }
+}

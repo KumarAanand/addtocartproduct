@@ -1,0 +1,12 @@
+.app {
+  width: 95%;
+  display: flex;
+  flex-direction: column; /* Change to column direction by default */
+}
+
+@media (min-width: 769px) {
+
+  .main {
+    flex: 2;
+  }
+}

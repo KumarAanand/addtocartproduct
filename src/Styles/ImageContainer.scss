@@ -1,0 +1,16 @@
+/* ScrollableImageColumn.css */
+ 
+  .image-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-item {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

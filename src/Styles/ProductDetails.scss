@@ -1,0 +1,33 @@
+/* Default styles for desktop */
+.left-content {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .left-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .left-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 767px) {
+    .left-content {
+      padding: 10px;
+      margin: 5px;
+    }
+  
+    .left-content h2 {
+      font-size: 20px;
+    }
+  
+    .left-content p {
+      font-size: 14px;
+    }
+  }
+  

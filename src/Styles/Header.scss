@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 0.5rem 1rem;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+
+  .company-name {
+    font-size: 1.2rem;
+  }
+
+  .center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    .product-tabs {
+      list-style: none;
+      display: flex;
+
+      .tab {
+        width: 65px;
+        height: 17px;
+        margin: 0.5rem;
+        
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .gapstyles {
+        padding-left: 40px;
+      }
+    }
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .icon {
+      font-size: 1.25rem;
+      margin-left: 1rem;
+      cursor: pointer;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  // Responsive Styles for Mobile
+  @media (max-width: 767px) {
+    flex-direction: row;
+    .center {
+      flex: 1; // Allow product tabs to take up full width on mobile
+      margin-top: 1rem; // Add some spacing between the center and other sections
+    }
+
+    .right {
+      margin-top: 1rem; // Add spacing between the right section and other sections
+    }
+
+    .icon {
+      font-size: 1.5rem; // Increase icon size on mobile
+    }
+  }
+}

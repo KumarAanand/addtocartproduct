@@ -1,0 +1,37 @@
+.footer {
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    color: #000000;
+  
+    .footerContent {
+      font-family: Roboto;
+      font-size: 25px;
+      font-weight: 200;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  
+    // Responsive Styles for Laptop/Desktop
+    @media (min-width: 768px) {
+      width: 864px;
+      height: 246px;
+      gap: 16px;
+      position: relative;
+      left: 208px;
+    }
+  
+    // Responsive Styles for Mobile
+    @media (max-width: 767px) {
+      width: 100%; // Full width on mobile
+      height: auto; // Adjust height based on content
+      padding: 0.5rem; // Reduce padding on mobile for better spacing
+  
+      .footerContent {
+        font-size: 18px; // Adjust font size for better mobile readability
+        line-height: 28px; // Adjust line height for better mobile spacing
+      }
+    }
+  }
+  
